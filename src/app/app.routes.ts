@@ -5,6 +5,7 @@ import { FormPageComponent } from './form-page/form-page.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'api-data', component: ApiDataComponent },
   { path: 'form', component: FormPageComponent },
 ];

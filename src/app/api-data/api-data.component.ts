@@ -1,4 +1,4 @@
-import { Component, Injectable, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { DataService } from '../services/data.service';
 import { CommonModule } from '@angular/common';
 
@@ -8,9 +8,6 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule],
   templateUrl: './api-data.component.html',
   styleUrl: './api-data.component.css'
-})
-@Injectable({
-  providedIn: 'root'
 })
 export class ApiDataComponent implements OnInit {
   posts: any[] = [];
